@@ -1,4 +1,4 @@
-###### we must follow css and js link pattern include your index page 
+## We must follow css and js link pattern include your index page 
 ## css pattern
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/dataTables.bootstrap5.min.css">
