@@ -1,11 +1,15 @@
  # DataTables 
  # We must follow css and js link pattern include your index page .
  
+ # css pattern
+ ```html
 <!-- Include the following CSS links in your HTML -->
 <link rel="stylesheet" href="./css/bootstrap.min.css">
 <link rel="stylesheet" href="./css/dataTables.bootstrap5.min.css">
 <link rel="stylesheet" href="./css/buttons.bootstrap5.min.css">
-
+  
+ # js pattern
+```html
 <!-- Include the following JS scripts in your HTML -->
 <script src="./js/jquery-3.7.0.js"></script>
 <script src="./js/jquery.dataTables.min.js"></script>
@@ -19,6 +23,8 @@
 <script src="./js/buttons.print.min.js"></script>
 
 <!-- Include the following jQuery script in your HTML -->
+
+ # jQuery pattern
 <script>
   $(document).ready(function() {
     var table = $('#example').DataTable({
